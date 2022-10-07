@@ -1,0 +1,17 @@
+.populares {
+    padding: 3rem 0;
+}
+.populares__card {
+    background: #fdfdfd;
+    display: grid;
+    grid-template-areas:
+    "card-imagen"
+    "card-base";
+    grid-template-columns: 100%;
+} 
+
+.populares__card__imagen {
+    grid-area: card-imagen;
+    height:100%;
+    width:100%;
+}
